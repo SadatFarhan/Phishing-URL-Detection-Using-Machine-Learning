@@ -1,0 +1,75 @@
+Phishing URL Detection using Machine Learning
+Overview
+This project presents a robust approach to detecting phishing URLs using various machine learning models. Phishing attacks remain a significant cybercrime, aimed at deceitfully acquiring sensitive user information such as credentials and financial details. These malicious activities frequently target online payment platforms, webmail services, financial institutions, and cloud storage providers. While traditional methods like blacklisting offer ease of implementation, they often fall short in identifying emerging phishing threats. This research addresses these limitations by leveraging machine learning algorithms to effectively identify and mitigate phishing websites.
+
+Methodology and System Workflow
+The overall flow of this thesis work follows a structured approach:
+
+Understanding Phishing URLs: Initial phase focused on comprehending the nature of phishing URLs and the imperative for their detection.
+
+Literature Review: Comprehensive study of existing techniques and research in phishing detection.
+
+Dataset Collection: Gathering and preparing the 'Website Phishing dataset' for model training and evaluation.
+
+Experimentation: Conducting experiments with different machine learning algorithms.
+
+Model Evaluation: Assessing the performance of the trained models.
+
+Thesis Writing: Documenting the entire research process and findings.
+
+The proposed system workflow, from dataset loading to prediction, involves:
+
+Load Dataset: Ingesting the raw dataset.
+
+Data Preprocessing: Cleaning, transforming, and preparing the data for model consumption.
+
+Finding Correlation in Dataset: Analyzing relationships between features in the dataset.
+
+Train-Test Split: Dividing the dataset into training and testing subsets to ensure unbiased model evaluation.
+
+Machine Learning Model Training: Training various models (XGBoost, Decision Tree, Logistic Regression, K-Neighbors Classifier, RandomForest Classifier) on the training dataset.
+
+Prediction: Using the trained models to make predictions on the testing dataset.
+
+Models Used
+This study evaluates the performance of the following machine learning algorithms for phishing URL detection:
+
+XGBoost (Extreme Gradient Boosting)
+
+Decision Tree
+
+Logistic Regression
+
+K-Nearest Neighbor (KNN) Classifier
+
+Random Forest Classifier
+
+Dataset
+The models were trained and evaluated using the Website Phishing dataset.
+
+Research Findings and Performance
+Our comprehensive analysis reveals that among the evaluated models, the XGBoost classifier consistently demonstrated superior performance in detecting phishing websites.
+
+Here's a summary of the model performance: 
+Model Name	Accuracy (Train)	Accuracy (Test)	Precision	Recall	f1-score	
+XGBoost	86.90%	85.20%	79%	78%	81%	
+Decision Tree	81.30%	81.40%	82%	80%	79%	
+Random Forest	81.40%	81.20%	82%	80%	78%	
+Logistic Regression	80.10%	79.60%	83%	80%	79%	
+K-Neighbors	77.40%	74.40%	75%	74%	72%	
+The XGBoost classifier achieved the highest test accuracy of 85.2%, along with strong precision, recall, and f1-score, confirming its efficacy as the best classifier for this task.
+Visualizations
+Confusion Matrix: An example confusion matrix for one of the models illustrates its ability to distinguish between "Fake" (phishing) and "Real" (legitimate) URLs.
+
+Receiver Operating Characteristic (ROC) Curve: The ROC curve visualizes the diagnostic ability of our machine learning models, showing the trade-off between the true positive rate and the false positive rate across different threshold settings. XGBoost shows a favorable curve, indicating its robust performance.
+
+Key Features
+Comprehensive implementation and evaluation of five popular machine learning algorithms for phishing URL detection.
+
+Detailed performance metrics (accuracy, precision, recall, f1-score) for each model.
+
+Identification of XGBoost as the top-performing model with high accuracy.
+
+
+Visualizations including Confusion Matrix and ROC Curves to support findings. 
+
