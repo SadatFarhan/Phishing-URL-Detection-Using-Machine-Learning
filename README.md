@@ -51,12 +51,10 @@ Research Findings and Performance
 Our comprehensive analysis reveals that among the evaluated models, the XGBoost classifier consistently demonstrated superior performance in detecting phishing websites.
 
 Here's a summary of the model performance: 
-Model Name	Accuracy (Train)	Accuracy (Test)	Precision	Recall	f1-score	
-XGBoost	86.90%	85.20%	79%	78%	81%	
-Decision Tree	81.30%	81.40%	82%	80%	79%	
-Random Forest	81.40%	81.20%	82%	80%	78%	
-Logistic Regression	80.10%	79.60%	83%	80%	79%	
-K-Neighbors	77.40%	74.40%	75%	74%	72%	
+
+
+
+
 The XGBoost classifier achieved the highest test accuracy of 85.2%, along with strong precision, recall, and f1-score, confirming its efficacy as the best classifier for this task.
 Visualizations
 Confusion Matrix: An example confusion matrix for one of the models illustrates its ability to distinguish between "Fake" (phishing) and "Real" (legitimate) URLs.
@@ -66,7 +64,13 @@ Receiver Operating Characteristic (ROC) Curve: The ROC curve visualizes the diag
 Key Features
 Comprehensive implementation and evaluation of five popular machine learning algorithms for phishing URL detection.
 
-Detailed performance metrics (accuracy, precision, recall, f1-score) for each model.
+Detailed performance metrics (accuracy, prec![rock curve](https://github.com/user-attachments/assets/324a49c3-6e6e-490c-8849-33405a9c2f1f)
+![rock curve](https://github.com/user-attachments/assets/324a49c3-6e6e-490c-8849-33405a9c2f1f)
+![Capture](https://github.com/user-attachments/assets/aecee2b0-b932-4dcd-8a14-ba6caab9468a)
+![Capture](https://github.com/user-attachments/assets/aecee2b0-b932-4dcd-8a14-ba6caab9468a)
+![Capture](https://github.com/user-attachments/assets/22f737c9-ef86-46f5-9e7f-d1a58a9cdd52)
+![Capture](https://github.com/user-attachments/assets/22f737c9-ef86-46f5-9e7f-d1a58a9cdd52)
+ision, recall, f1-score) for each model.
 
 Identification of XGBoost as the top-performing model with high accuracy.
 
