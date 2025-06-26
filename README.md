@@ -64,19 +64,14 @@ Receiver Operating Characteristic (ROC) Curve: The ROC curve visualizes the diag
 Key Features
 Comprehensive implementation and evaluation of five popular machine learning algorithms for phishing URL detection.
 ![Capture](https://github.com/user-attachments/assets/aecee2b0-b932-4dcd-8a14-ba6caab9468a)
-![Capture](https://github.com/user-attachments/assets/aecee2b0-b932-4dcd-8a14-ba6caab9468a)
 
 Detailed performance metrics (accuracy, precision, recall, f1-score) for each model.
-![image](https://github.com/user-attachments/assets/a350edae-b04e-4a7e-b18a-a3c6ff660be7)
 ![image](https://github.com/user-attachments/assets/a350edae-b04e-4a7e-b18a-a3c6ff660be7)
 
 
 Identification of XGBoost as the top-performing model with high accuracy.
 ![image](https://github.com/user-attachments/assets/2ced4a84-08be-4519-aede-78385ce1263a)
-![image](https://github.com/user-attachments/assets/2ced4a84-08be-4519-aede-78385ce1263a)
-
 
 Visualizations including Confusion Matrix and ROC Curves to support findings. 
 
-![rock curve](https://github.com/user-attachments/assets/324a49c3-6e6e-490c-8849-33405a9c2f1f)
 ![rock curve](https://github.com/user-attachments/assets/324a49c3-6e6e-490c-8849-33405a9c2f1f)
